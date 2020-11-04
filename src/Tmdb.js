@@ -27,7 +27,7 @@ export default {
 			{
 				slug: 'action',
 				title: 'Actions',
-				items: await basicFecth(`/discover/movie?with_genres=28&language=pt-BR&api_key=${API_KEY}`),
+				items: await basicFecth(`/discover/movie?with_genres=28&language=fr-FR&api_key=${API_KEY}`),
 			},
 			{
 				slug: 'comedy',
